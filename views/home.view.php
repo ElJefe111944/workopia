@@ -1,10 +1,10 @@
-<?php loadPartial('head'); ?>
+<?= loadPartial('head') ?>
     <!-- Nav -->
-    <?php loadPartial('navbar'); ?>
+    <?= loadPartial('navbar') ?>
     <!-- Showcase -->
-    <?php loadPartial('showcase-search'); ?>
+    <?= loadPartial('showcase-search') ?>
     <!-- Top Banner -->
-    <?php loadPartial('top-banner'); ?>
+    <?= loadPartial('top-banner') ?>
     <!-- Job Listings -->
     <section>
       <div class="container mx-auto p-4 mt-4">
@@ -196,5 +196,5 @@
       </section>
 
        <!-- Bottom Banner -->
-       <?php loadPartial('bottom-banner'); ?>
-    <?php loadPartial('footer'); ?>
+       <?= loadPartial('bottom-banner') ?>
+    <?= loadPartial('footer') ?>
