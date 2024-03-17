@@ -60,7 +60,7 @@ function loadPartial($name){
 function inspect($value){
     echo '<pre>';
     var_dump($value);
-    echo '<pre>';
+    echo '</pre>';
 };
 
 /**
@@ -74,5 +74,5 @@ function inspect($value){
 function inspectAndDie($value){
     echo '<pre>';
     die(var_dump($value));
-    echo '<pre>';
+    echo '</pre>';
 };
